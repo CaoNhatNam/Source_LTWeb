@@ -1,0 +1,49 @@
+@charset "UTF-8";
+body {
+    background: #99CCFF;
+    font-family: Assistant, sans-serif;
+    display: flex;
+    min-height: 90vh;
+
+  }
+  .form{
+    background: #CC66FF;
+    height: 450px;
+    width: 450px;
+    border-radius: 10px;
+    text-align: center;
+    list-style: none;
+    margin: auto;  }
+  .form button{
+    border-radius: 10px;
+    background: whitesmoke;
+    color:black;
+    font-size: 1em;
+    margin-top: 20px;
+    margin-left: 10px;
+    height: 30px;
+  }
+  .form button:hover{
+    border-radius: 8px;
+    background: red;
+   
+    color:black;
+    font-size: 1em;
+
+  }
+  .form .field-wrap{
+    margin-top: 7px;
+    text-align: center;
+  }
+  .form .field-wrap input{
+    border-radius: 10px;
+    background-color: rgb(rgb(0, 255, 170));
+    box-shadow: 0px 2px 0px 0px white;
+    width:50%;
+    color: BLACK;
+    font-size: 1em;
+    outline: none;
+    margin-top: 15px;
+
+  }
+  
